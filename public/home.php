@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Henry's NO-tion</title>
-    <link href="./css/output.css" rel="stylesheet">
+    <link href="./public/css/output.css" rel="stylesheet">
 </head>
 
 <body>

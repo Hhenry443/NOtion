@@ -1,0 +1,6 @@
+RewriteEngine On # Turn on the rewriting engine RewriteBase / # Optional: Specify the base URL for per-directory rewrites
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^ index.php [QSA,L]
